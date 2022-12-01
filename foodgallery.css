@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nerko+One&family=Pacifico&family=Patrick+Hand&display=swap');
+#hd1{
+    color:  rgb(233, 66, 133);
+    text-align: center;
+    background-color: pink;
+    /* font-family: 'Nerko One', cursive; */
+    /* width:200px; */
+    height: 37px;
+    /* margin-left: 520px; */
+    margin-top: 1px;
+    font-size: xx-large;
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Pacifico', cursive; */
+}
+/* body{
+    background-image: url("./images/fb.jpg");
+    background-size: cover;
+    
+} */
+
+/* .c1{
+    /* background-image: url("./images/fb.jpg");
+    background-size: cover; */
+     /* position: relative;
+     height:550px;
+     width:100%;  */
+    /* opacity: 0.5; */
+    /* opacity: 0.2; */
+
+.parent{
+    height:550px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    display:flex; 
+     justify-content: space-evenly;
+    align-items: center;
+    /* opacity:0.2; */
+}
+.parent::before{
+    content: "";
+    background-image: url("./images/fb2.jpg");
+    background-size: cover;
+    position: absolute;
+    right:0px;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    opacity:0.2;
+}
+.col{
+    position: relative;
+    width: 200px;
+    height:450px;
+    /* border: 1px pink solid; */
+    /* background-color: white; */
+    /* opacity: 0.5; */
+    /* position: absolute; */
+}
+h3{
+    text-align: center;
+    background-color: pink;
+    color:  rgb(233, 66, 133);
+    font-family: 'Kanit', sans-serif;
+}
+.col-1 img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    /* margin-left: 4px; */
+    
+}
+.col-2 img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    /* margin-left: 13px; */
+    
+}
+.col-3 img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    /* margin-left: 13px; */
+    
+}
+.col-4 img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    /* margin-left: 13px; */
+    
+}
+
+
+P{
+    margin-left: 4px;
+    color: rgb(233, 66, 133);
+    font-family: 'Nerko One', cursive;
+    background-color: pink;
+}
+button{
+    background-color: pink;
+    color:  rgb(233, 66, 133);
+    border: 2px pink solid;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-family: 'Nerko One', cursive;
+}
+button:hover{
+background-color:  rgb(233, 66, 133);
+color: pink;
+border: 2px white solid;
+}
